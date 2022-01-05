@@ -73,19 +73,19 @@ Item.create!(user_id: 1, kitchen_id: 1, name: "Butter", food_group: "Dairy", des
 
 
 25.times do
-    Item.create!(user_id: 1, kitchen_id: 1, name: "Sample Data".ingredient, food_group: "foo bar", description: "foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar", amount: Faker::Number.within(range: 1..19), measurement_type: "units", in_kitchen: true, in_shopping_list: false, in_fridge: true, in_freezer: false, in_pantry: false, imgurl: Faker::LoremFlickr.image(size: "300x300", search_terms: ['food']))
+    Item.create!(user_id: 1, kitchen_id: 1, name: "Sample Data", food_group: "foo bar", description: "foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar", amount: Faker::Number.within(range: 1..19), measurement_type: "units", in_kitchen: true, in_shopping_list: false, in_fridge: true, in_freezer: false, in_pantry: false, imgurl: Faker::LoremFlickr.image(size: "300x300", search_terms: ['food']))
 end
 
 31.times do
-    Item.create!(user_id: 1, kitchen_id: 1, name: "Sample Data".ingredient, food_group: "foo bar", description: "foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar", amount: Faker::Number.within(range: 1..19), measurement_type: "units", in_kitchen: true, in_shopping_list: false, in_fridge: false, in_freezer: true, in_pantry: false, imgurl: Faker::LoremFlickr.image(size: "300x300", search_terms: ['food']))
+    Item.create!(user_id: 1, kitchen_id: 1, name: "Sample Data", food_group: "foo bar", description: "foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar", amount: Faker::Number.within(range: 1..19), measurement_type: "units", in_kitchen: true, in_shopping_list: false, in_fridge: false, in_freezer: true, in_pantry: false, imgurl: Faker::LoremFlickr.image(size: "300x300", search_terms: ['food']))
 end
 
 18.times do
-    Item.create!(user_id: 1, kitchen_id: 1, name: "Sample Data".ingredient, food_group: "foo bar", description: "foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar", amount: Faker::Number.within(range: 1..19), measurement_type: "units", in_kitchen: true, in_shopping_list: false, in_fridge: false, in_freezer: false, in_pantry: true, imgurl: Faker::LoremFlickr.image(size: "300x300", search_terms: ['food']))
+    Item.create!(user_id: 1, kitchen_id: 1, name: "Sample Data", food_group: "foo bar", description: "foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar", amount: Faker::Number.within(range: 1..19), measurement_type: "units", in_kitchen: true, in_shopping_list: false, in_fridge: false, in_freezer: false, in_pantry: true, imgurl: Faker::LoremFlickr.image(size: "300x300", search_terms: ['food']))
 end
 
 9.times do
-    Item.create!(user_id: 1, kitchen_id: 1, name: "Sample Data".ingredient, food_group: "foo bar", description: "foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar", amount: Faker::Number.within(range: 1..19), measurement_type: "units", in_kitchen: true, in_shopping_list: true, in_fridge: false, in_freezer: false, in_pantry: false, imgurl: Faker::LoremFlickr.image(size: "300x300", search_terms: ['food']))
+    Item.create!(user_id: 1, kitchen_id: 1, name: "Sample Data", food_group: "foo bar", description: "foo bar foo bar foo bar foo bar foo bar foo bar foo bar foo bar", amount: Faker::Number.within(range: 1..19), measurement_type: "units", in_kitchen: true, in_shopping_list: true, in_fridge: false, in_freezer: false, in_pantry: false, imgurl: Faker::LoremFlickr.image(size: "300x300", search_terms: ['food']))
 end
 
 
